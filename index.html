@@ -6,19 +6,33 @@
     <title>CoffeeCruz</title>
     <meta name="description" content="Explore desenas de variações da bebida favorita entre os <strong>devs</strong> ao redor do mundo!">
     <link rel="stylesheet" href="style.css">
+    <script src="mobile-menu.js"></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <span class="coffeecruz-nav">coffeecruz</span>
-            <ul class="list-nav">
+    <header class="header-menu">
+        <span class="coffeecruz-nav">coffeecruz</span>
+        <nav class="nav-bar">
+            <ul class="nav-list">
                 <li><a class="list-nav-link" href="">Home</a></li>
                 <li><a class="list-nav-link" href="">Receitas</a></li>
                 <li><a class="list-nav-link" href="">Novidades</a></li>
                 <li><a class="list-nav-link" href="">Melhor avaliadas</a></li>
+                <li><a class="list-nav-link" href="https://github.com/soufelipecruz" target="_blank">GitHub</a></li>
             </ul>
-            <a class="github-nav" href="https://github.com/soufelipecruz" target="_blank">GitHub</a>
+            <div onclick="menuShow()" class="mobilemenuClick">
+                <img class="icon" src="/img/menu_white_36dp.svg" alt="button menu">
+            </div>
         </nav>
+
+        <div class="mobilemenu">
+            <ul>
+                <li><a class="menuitem" href="">Home</a></li>
+                <li><a class="menuitem" href="">Receitas</a></li>
+                <li><a class="menuitem" href="">Novidades</a></li>
+                <li><a class="menuitem" href="">Melhor avaliadas</a></li>
+                <li><a class="menuitem" href="https://github.com/soufelipecruz" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <div class="hero-main">
@@ -27,7 +41,7 @@
                     <span class="emphasis brown">novidade</span>
                     <h1>Encontre a receita perfeita!</h1>
                     <hr/>
-                    <h2 class="hero-caption">Explore dezenas de veriações de bebida favoritas entre os devs ao redor do mundo!</h2>
+                    <h2 class="hero-caption">Explore dezenas de variações de bebida favoritas entre os devs ao redor do mundo!</h2>
                 </header>
                 <div class="hero-content-img">
                     <figure><img src="img/coffee1.jpg"></figure>

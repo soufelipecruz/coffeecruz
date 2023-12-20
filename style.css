@@ -17,32 +17,62 @@ html {
 }
 
 a{
+    color: #fff;
     text-decoration: none;
+    transition: 0.3s;
+    
+}
+
+a :hover{
+    opacity: 0.7;
 }
 
 ul{
     list-style: none;
 }
 
-nav {
-    max-width: 70rem;
-    margin: auto;
-    padding: 1.5rem 10rem;
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8rem 0 8rem;
+    height: 8vh;
+}
 
+nav {
     display: flex;
     flex-direction: row;  
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
 .coffeecruz-nav{
     font-family: Teko;
     font-size: 2rem;
-    font-weight: 600;
+    font-weight: 600rem;
     text-transform: uppercase;
 }
 
-.list-nav{
+
+.mobilemenuClick{
+    display: none;
+    cursor: pointer;
+}
+
+.mobilemenuClick div{
+    width: 2rem;
+    height: 2px;
+    background: #fff;
+    margin: 0.5rem;
+    transition: 0.9s;
+}
+
+.mobilemenu{
+    display: none;
+}
+
+.nav-list{
+    list-style: none;
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
@@ -52,12 +82,64 @@ nav {
     color: #FFF2E780;
 }
 
-.github-nav{
-    color:#FFF2E7;
+.list-nav-link:hover{
+    color: #FFF2E7;
 }
 
-.github-nav:hover{
-    color: #ff9843a0;
+
+@media(max-width:871px) {
+    .nav-bar{
+        padding: 1.5rem 4rem;
+
+    }
+
+    .nav-list{
+        display: none;
+        /*position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #241A1C;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;*/
+    }
+
+
+    .mobilemenuClick{
+        display: block;
+    }
+
+    .mobilemenu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 33vh;
+        background: #241A1C;
+        flex-direction: column;
+        align-items: center;
+        justify-content:space-around;
+    }
+
+    .menuitem{
+        display: block;
+        padding-top: 1.2rem;
+        color: #FFF2E780;
+    }
+
+    .menuitem:hover{
+        color: #fff;
+    }
+
+    .open{
+        display: block;
+    }
 }
 
 main{
@@ -67,8 +149,6 @@ main{
 
 .hero-main{
     background-color: #181012;
-
-    
 }
 
 .hero{
