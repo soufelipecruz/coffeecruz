@@ -1,15 +1,18 @@
 ## CoffeeCruz
 
-### Página para os devs que são amantes de café: 
+### Page for devs who are coffee lovers: 
 
 ![image](https://github.com/soufelipecruz/coffeecruz/assets/126681264/80292173-7fcf-42e7-9043-a5916f8a07b3)
 
 #
 
-### Aprendizado:
+### What I learned:
 
-Nesse projeto pude praticar as linguagens de marcação e estilização HTML e CSS. 
+- In this project I was able to practice HTML and CSS markup and styling languages.
 
-A ptratica da estruturação e uso de forma correta das tags é essêncial para um código limpo e compreensível. 
+- The practice of correctly structuring and using tags is essential for clean and understandable code.
 
-O uso do flexbox pode ser um grande desafio, mas a pratica leva a perfeição! 
+- Using flexbox can be a big challenge, but practice makes perfect!
+
+Felipe Cruz </br>
+Developer Front-end
