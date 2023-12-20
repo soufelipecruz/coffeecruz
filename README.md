@@ -1,8 +1,9 @@
 ## CoffeeCruz
 
-### Página para os amantes de café: 
+### Página para os devs que são amantes de café: 
 
-![Captura de tela 2023-12-14 132531](https://github.com/soufelipecruz/coffeecruz/assets/126681264/b1297f24-fcbd-4288-a606-61b21f38c1da)
+![image](https://github.com/soufelipecruz/coffeecruz/assets/126681264/80292173-7fcf-42e7-9043-a5916f8a07b3)
+
 #
 
 ### Aprendizado:
